@@ -23,37 +23,7 @@
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
     
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
-        <div class="container">
-            
-            <!-- Text Logo - Use this if you don't have a graphic logo -->
-            <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Kobe</a> -->
-
-            <!-- Image Logo -->
-            <!-- <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a>  -->
-            <a class="navbar-brand logo-image" style="    text-decoration: none; color:white; font-weight:bold;"  > Poka AI</a>
-
-            <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav ml-auto">
-                   
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="https://twitter.com/RealmSolana"> <img src="twitter.png" height="50px" width="50px" alt=""> </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="https://discord.gg/R3qtPKeCmJ"> <img src="discord.png" height="50px" width="50px" alt=""> </a>
-                    </li>
-              
-                </ul>
-               
-            </div> <!-- end of navbar-collapse -->
-        </div> <!-- end of container -->
-    </nav> <!-- end of navbar -->
-    <!-- end of navigation -->
+   
 
     @yield('content')
 
