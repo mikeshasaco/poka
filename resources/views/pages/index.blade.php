@@ -263,7 +263,7 @@
 .cardone.redmask {
   --color1: rgb(255, 148, 54);
   --color2: rgb(255, 90, 144);
-  background-image: url("blizzard.png");
+  background-image: url("new.png");
 
 }
 .cardone.qmark {
@@ -365,9 +365,10 @@
   filter: brightness(1);
   transition: filter 0.5s ease;
 }
+/* https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjU0cjhpeXl3dzBld2xxZ2M1OTN3djB4cmhxOTVzajQwa21lcnk3MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dAyD6PWoQRs40/giphy.gif */
 .cardone.redmask:after {
   opacity: 1;
-  background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjU0cjhpeXl3dzBld2xxZ2M1OTN3djB4cmhxOTVzajQwa21lcnk3MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dAyD6PWoQRs40/giphy.gif");
+  background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmcwNHNvenVsa3YwNngydjRqbzkxaXByejZtaXg1YmswOXJqY3g5OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ufQ8SSZ6ob2NVKlMA0/giphy.gif");
   background-position: center;
   background-size: 250%;
   z-index: 2;
